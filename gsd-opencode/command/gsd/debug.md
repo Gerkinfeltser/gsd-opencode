@@ -25,7 +25,7 @@ If starting new: gather symptoms, then investigate autonomously.
 </execution_context>
 
 <context>
-User's issue: ($ARGUMENTS)
+User's issue: $ARGUMENTS
 
 Check for active debug sessions:
 ```bash

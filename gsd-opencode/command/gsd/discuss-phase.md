@@ -18,7 +18,7 @@ Output: {phase}-CONTEXT.md capturing the user's vision for the phase
 </execution_context>
 
 <context>
-Phase number: ($ARGUMENTS) (required)
+Phase number: $ARGUMENTS (required)
 
 **Load project state first:**
 @.planning/STATE.md

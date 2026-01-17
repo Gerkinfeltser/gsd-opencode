@@ -19,6 +19,8 @@ Enables reviewing captured ideas and deciding what to work on next.
 <context>
 @.planning/STATE.md
 @.planning/ROADMAP.md
+
+Area filter: $ARGUMENTS
 </context>
 
 <process>

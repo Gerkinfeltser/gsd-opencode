@@ -16,7 +16,7 @@ With --wait flag, blocks until all agents complete.
 </objective>
 
 <context>
-Arguments: ($ARGUMENTS)
+Arguments: $ARGUMENTS
 </context>
 
 <process>

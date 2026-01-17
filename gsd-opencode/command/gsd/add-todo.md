@@ -17,6 +17,8 @@ Enables "thought → capture → continue" flow without losing context or derail
 
 <context>
 @.planning/STATE.md
+
+Todo title: $ARGUMENTS
 </context>
 
 <process>
@@ -36,7 +38,7 @@ Note existing areas for consistency in infer_area step.
 </step>
 
 <step name="extract_content">
-**With arguments:** Use ($ARGUMENTS) as the title/focus.
+**With arguments:** Use `$ARGUMENTS` as the title/focus.
 - `/gsd-add-todo Add auth token refresh` → title = "Add auth token refresh"
 
 **Without arguments:** Analyze recent conversation to extract:

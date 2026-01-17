@@ -24,7 +24,7 @@ Output: {plan}-FIX.md in the phase directory, ready for execution.
 </execution_context>
 
 <context>
-Plan number: ($ARGUMENTS) (required - e.g., "04-02" or "09-01")
+Plan number: $ARGUMENTS (required - e.g., "04-02" or "09-01")
 
 **Load project state:**
 @.planning/STATE.md
@@ -36,7 +36,7 @@ Plan number: ($ARGUMENTS) (required - e.g., "04-02" or "09-01")
 <step name="parse">
 **Parse plan argument:**
 
-($ARGUMENTS) should be a plan number like "04-02" or "09-01".
+$ARGUMENTS should be a plan number like "04-02" or "09-01".
 Extract phase number (XX) and plan number (NN).
 
 If no argument provided:

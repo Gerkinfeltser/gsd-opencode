@@ -19,6 +19,8 @@ Output: Phase deleted, all subsequent phases renumbered, git commit as historica
 <execution_context>
 @.planning/ROADMAP.md
 @.planning/STATE.md
+
+Phase number: $ARGUMENTS
 </execution_context>
 
 <process>

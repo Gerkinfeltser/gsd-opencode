@@ -26,7 +26,7 @@ Output: Validation of features, any issues logged to phase-scoped ISSUES.md
 </execution_context>
 
 <context>
-Scope: ($ARGUMENTS) (optional)
+Scope: $ARGUMENTS (optional)
 - If provided: Test specific phase or plan (e.g., "4" or "04-02")
 - If not provided: Test most recently completed plan
 

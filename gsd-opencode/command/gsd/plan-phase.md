@@ -30,7 +30,7 @@ Output: One or more PLAN.md files in the phase directory (.planning/phases/XX-na
 </execution_context>
 
 <context>
-Phase number: ($ARGUMENTS) (optional - auto-detects next unplanned phase if not provided)
+Phase number: $ARGUMENTS (optional - auto-detects next unplanned phase if not provided)
 
 **Load project state first:**
 @.planning/STATE.md
@@ -47,7 +47,7 @@ Check for `.planning/codebase/` and load relevant documents based on phase type.
 
 <process>
 1. Check .planning/ directory exists (error if not - user should run /gsd-new-project)
-2. If phase number provided via ($ARGUMENTS), validate it exists in roadmap
+2. If phase number provided via `$ARGUMENTS`, validate it exists in roadmap
 3. If no phase number, detect next unplanned phase from roadmap
 4. Follow plan-phase.md workflow:
    - Load project state and accumulated decisions

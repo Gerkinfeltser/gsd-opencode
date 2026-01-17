@@ -28,7 +28,7 @@ Context budget: ~15% orchestrator, 100% fresh per subagent.
 </execution_context>
 
 <context>
-Phase: ($ARGUMENTS)
+Phase: $ARGUMENTS
 
 @.planning/ROADMAP.md
 @.planning/STATE.md

@@ -19,13 +19,15 @@ Purpose: Add planned work discovered during execution that belongs at the end of
 <execution_context>
 @.planning/ROADMAP.md
 @.planning/STATE.md
+
+Phase description: $ARGUMENTS
 </execution_context>
 
 <process>
 
 <step name="parse_arguments">
 Parse the command arguments:
-- All arguments ($ARGUMENTS) become the phase description
+- All arguments `$ARGUMENTS` become the phase description
 - Example: `/gsd-add-phase Add authentication` → description = "Add authentication"
 - Example: `/gsd-add-phase Fix critical performance issues` → description = "Fix critical performance issues"
 

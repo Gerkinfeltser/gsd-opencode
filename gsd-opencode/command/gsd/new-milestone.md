@@ -17,7 +17,7 @@ Output: New milestone in ROADMAP.md, updated STATE.md, phase directories created
 </execution_context>
 
 <context>
-Milestone name: ($ARGUMENTS) (optional - will prompt if not provided)
+Milestone name: $ARGUMENTS (optional - will prompt if not provided)
 
 **Load project state first:**
 @.planning/STATE.md
