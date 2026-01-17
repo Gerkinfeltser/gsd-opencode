@@ -1,5 +1,5 @@
 ---
-name: gsd:execute-phase
+name: gsd-execute-phase
 description: Execute all plans in a phase with wave-based parallelization
 argument-hint: "<phase-number>"
 allowed-tools:
@@ -64,8 +64,8 @@ Phase: ($ARGUMENTS)
    - Update ROADMAP.md
 
 6. **Offer next steps**
-   - More phases → `/gsd:plan-phase {next}`
-   - Milestone complete → `/gsd:complete-milestone`
+   - More phases → `/gsd-plan-phase {next}`
+   - Milestone complete → `/gsd-complete-milestone`
 </process>
 
 <wave_execution>
